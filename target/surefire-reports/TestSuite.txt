@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.992 s <<< FAILURE! - in TestSuite
+validateDroppable(com.jio.test.ValidateResizableandDrappableTest)  Time elapsed: 0.045 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sidebar']/aside[1]/ul/li/a[text()='Droppable']"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C1GF75IPTV', ip: '10.131.126.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\VINAYS~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e53baff32ad300e4c26798975100166b
+*** Element info: {Using=xpath, value=//*[@id='sidebar']/aside[1]/ul/li/a[text()='Droppable']}
+	at com.jio.test.ValidateResizableandDrappableTest.validateDroppable(ValidateResizableandDrappableTest.java:42)
+
+validateVacationTest(com.jio.test.ValidateResizableandDrappableTest)  Time elapsed: 0.012 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='sidebar']/aside[1]/ul/li/a[text()='Resizable']"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C1GF75IPTV', ip: '10.131.126.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\VINAYS~1.IND\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e53baff32ad300e4c26798975100166b
+*** Element info: {Using=xpath, value=//*[@id='sidebar']/aside[1]/ul/li/a[text()='Resizable']}
+	at com.jio.test.ValidateResizableandDrappableTest.validateVacationTest(ValidateResizableandDrappableTest.java:36)
+
